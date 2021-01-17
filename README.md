@@ -1,3 +1,3 @@
-# KoKoa CLone 2020 Update
+# KoKoa Clone 2020 Update
 
-Css got so much bertter!
+HTML & Css are so much fun!
