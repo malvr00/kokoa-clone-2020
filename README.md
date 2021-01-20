@@ -1,3 +1,5 @@
-# KoKoa Clone 2020 Update, HTML & CSS
+# KoKoa Clone 2020 Update
 
-HTML & Css practice!
+# HTML & CSS
+
+practice!
