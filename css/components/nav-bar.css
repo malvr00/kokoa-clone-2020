@@ -16,10 +16,22 @@
   color: #2e363e;
 }
 
+@keyframes natificationAnimation {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(-5px) rotateY(360deg);
+  }
+  100% {
+    transform: none;
+  }
+}
 .nav__notification {
   position: absolute;
   left: 15px;
   bottom: 15px;
+  animation: natificationAnimation 3s ease-in-out infinite;
 }
 .nav__space {
   background-color: tomato;
@@ -29,4 +41,18 @@
   position: absolute;
   right: -5px;
   top: -13px;
+}
+
+@keyframes appearBtnAnomation {
+  from {
+    transform: translateY(50px);
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+.nav__btn {
+  animation: appearBtnAnomation 1s ease-in-out;
 }
